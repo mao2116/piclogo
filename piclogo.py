@@ -21,7 +21,7 @@ try:
   open('LEED.MAO')
 except:
   os.system('touch LEED.MAO;tar -zxf ./PILLMA.tar.gz;cd PILLMA;chmod +x *;cd ..;')
-  maof=open('LEED.MAO','wr')
+  maof=open('LEED.MAO','w')
   maof.write('mao={"AUTHER":"mao2116"\n"PIC-LOGO":"YES"\n"version":"0.1"}')
 try:  
   from PILLMA import Image
