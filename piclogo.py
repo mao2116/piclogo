@@ -44,7 +44,7 @@ except:
   maof=open('LEED.MAO','w')
   maof.write('mao={"AUTHER":"mao2116"\n"PIC-LOGO":"YES"\n"version":"0.1"}')
 try:  
-  from PILLMA import Image
+  from PIL import Image
 except:
   exit("THIS PROGRAM WILL NOT WORK,\nDOWNLOAD AGAIN AND TRY AGAIN.")
 
