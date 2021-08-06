@@ -49,7 +49,7 @@ except:
   exit("THIS PROGRAM WILL NOT WORK,\nDOWNLOAD AGAIN AND TRY AGAIN.")
 
 try:
-  os.mkdir('PICLOGO-OUT')
+  os.mkdir('/sdcard/PICLOGO-OUT')
 except:
   pass
 maofn=str(time.time())
