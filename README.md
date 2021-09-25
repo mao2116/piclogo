@@ -4,6 +4,9 @@
 [![Author](https://img.shields.io/badge/Author-MAO2116-blue)](https://github.com/mao2116)
 [![Language](https://img.shields.io/badge/Written%20in-Python3-blue)](#)
 [![Opensource](https://img.shields.io/badge/Open%20Source-Yes-green)](#)
+
+**TRY TO MAKE EASYER,THE MAIN AUTHER OF THIS CODE GEEKSFORGEEKS**
+
 #### REQUIREMENTS
 * `PYTHON 3X+`
 * `NUMPY`
