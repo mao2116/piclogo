@@ -38,7 +38,7 @@ except:
   os.system("pip install numpy")
 import math 
 try:  
-  from PIL import Image
+  from pillow import Image
 except Exception as mm:
   exit(mm)
 
