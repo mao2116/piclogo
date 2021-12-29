@@ -37,16 +37,10 @@ try:
 except:
   os.system("pip install numpy")
 import math 
-try:
-  open('LEED.MAO')
-except:
-  os.system('touch LEED.MAO;tar -zxf ./PILLMA.tar.gz;cd PIL;chmod +x *;cd ..;')
-  maof=open('LEED.MAO','w')
-  maof.write('mao={"AUTHER":"mao2116"\n"PIC-LOGO":"YES"\n"version":"0.1"}')
 try:  
   from PIL import Image
-except:
-  exit("THIS PROGRAM WILL NOT WORK,\nDOWNLOAD AGAIN AND TRY AGAIN.")
+except Exception as mm:
+  exit(mm)
 
 try:
   os.mkdir('/sdcard/PICLOGO-OUT')
